@@ -1,4 +1,6 @@
 export default {
+  ssr: false,
+  target: 'static',
   head: {
     title: 'nuxt-tailwind-themes',
     htmlAttrs: {
