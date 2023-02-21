@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-tailwind-themes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.0.0",
+    "color": "^4.2.3",
+    "core-js": "^3.25.3",
+    "d3": "^7.6.1",
+    "nuxt": "^2.15.8",
+    "simpler-color": "^1.0.1",
+    "tailwindcss-dark-mode": "^1.1.7",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "2.1.1",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}

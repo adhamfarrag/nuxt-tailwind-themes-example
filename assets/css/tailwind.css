@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 44, 39, 56;
+    --color-secondary: 117, 111, 134;
+    --color-muted: 124, 156, 191;
+    --color-bright: 255, 255, 255;
+    --color-accent: 8, 126, 173;
+    --color-shade: 219, 226, 234;
+    --color-tint: 235, 244, 248;
+    --color-success: 20, 164, 139;
+    --color-error: 242, 172, 87;
+    --color-warning: 255, 113, 113;
+  }
+}

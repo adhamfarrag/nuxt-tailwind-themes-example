@@ -1,0 +1,2 @@
+- [x] Predefined themes definition and implementation.
+- [ ] Dynamic Monokrom theme.
